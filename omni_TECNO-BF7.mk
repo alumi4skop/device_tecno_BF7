@@ -12,17 +12,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit from TECNO-BF7h device
-$(call inherit-product, device/tecno/TECNO-BF7h/device.mk)
+$(call inherit-product, device/tecno/TECNO-BF7/device.mk)
 
-PRODUCT_DEVICE := TECNO-BF7h
-PRODUCT_NAME := omni_TECNO-BF7h
+PRODUCT_DEVICE := TECNO-BF7
+PRODUCT_NAME := omni_TECNO-BF7
 PRODUCT_BRAND := TECNO
-PRODUCT_MODEL := TECNO BF7h
+PRODUCT_MODEL := TECNO BF7
 PRODUCT_MANUFACTURER := tecno
 
 PRODUCT_GMS_CLIENTID_BASE := android-tecno
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="vnd_bf7h_h6127-user 12 SP1A.210812.016 196941 release-keys"
+    PRIVATE_BUILD_DESC="vnd_bf7_h6127-user 12 SP1A.210812.016 196941 release-keys"
 
-BUILD_FINGERPRINT := TECNO/BF7h-AS/TECNO-BF7h:12/SP1A.210812.016/221220V491:user/release-keys
+BUILD_FINGERPRINT := TECNO/BF7-AS/TECNO-BF7:12/SP1A.210812.016/221220V491:user/release-keys
